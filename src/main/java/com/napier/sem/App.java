@@ -43,8 +43,6 @@ public class App
         }
         catch (ClassNotFoundException e)
         {
-            // Wait a bit for db to start
-            Thread.sleep(30000);
             System.out.println("Could not load SQL driver");
             System.exit(-1);
         }
